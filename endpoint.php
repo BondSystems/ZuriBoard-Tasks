@@ -18,11 +18,11 @@ $currentDay = date('l');
 // Get current UTC time
 $utcTime = gmdate('Y-m-d\TH:i:s\Z');
 
-// Replace these with your GitHub repository and file URLs
+// GitHub repository and file URLs
 $githubFileUrl = "https://github.com/username/repo/blob/main/file_name.ext";
 $githubRepoUrl = "https://github.com/username/repo";
 
-// Prepare the response data
+// Response data
 $responseData = [
     "slack_name" => $slackName,
     "current_day" => $currentDay,
